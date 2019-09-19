@@ -14,7 +14,7 @@ Public profiles do not require any authentication although if you want to view t
 
 As mentioned above, this repo is a REST API that communicates using JSON objects.
 
-**JavaScript Object Notation (JSON)** is an open-standard file format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format, with a diverse range of applications. Such as serving as replacement for XML in AJAX systems.
+**JavaScript Object Notation (JSON)** is an open-standard file format that uses human-readable text to transmit data objects consisting of attributeâ€“value pairs and array data types (or any other serializable value). It is a very common data format, with a diverse range of applications. Such as serving as replacement for XML in AJAX systems.
 
 An example:
 
@@ -83,13 +83,13 @@ Download or clone the repository in a directory and cd into folder containing th
 * Set the FLASK environment variable FLASK_APP to the name of the python file as follows in the terminal (for Windows):
 
   
-```python
+```bash
 set FLASK_APP=app.py 
 ```
 
 * Run the flask app using the following command:
 
-```python
+```bash
 flask run 
 ```
 
