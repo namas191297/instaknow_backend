@@ -1,4 +1,4 @@
-# InstaKnow
+# InstaKnow - Back-end
 
 InstaKnow is an open-source mobile application that allows you to analyse the sentiments of public and private profiles based on their post captions. 
 
@@ -102,6 +102,33 @@ flask run
 
 * Checking policies and ensuring that publishing this application to the playstore/appstore should not cause instagram policy-violation due to web-scraping.
 
+
+# InstaKnow - Front-end Application
+
+Flutter application has been used allowing userts to analyze sentiments of other users based on their captions. This application uses a Machine Learning NLP approach to analyze captions and provide positive, negative and neutral scores as the output.
+
+The flutter application uses ```Provider``` + ```Get_it``` for State Management.
+
+ MVVM(Model-View-(View)Model) Architecture has been used.
+
+## Screenshots
+
+## HomeScreen
+
+![Home_Screen](https://github.com/ketanchoyal/InstaKnow/raw/master/Screenshots/homeScreenDemo.gif)
+
+## App UI Demo
+
+![App_UI](https://github.com/ketanchoyal/InstaKnow/raw/master/Screenshots/UIDemo.gif)
+
+
+## Public Profile Analyzer
+
+![Analyzer](https://github.com/ketanchoyal/InstaKnow/raw/master/Screenshots/public.png)
+
+## Private Profile Analyzer
+
+![PAnalyzer](https://github.com/ketanchoyal/InstaKnow/raw/master/Screenshots/private.png)
 
 ## License
 [GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)
